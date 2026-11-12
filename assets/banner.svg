@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200" role="img" aria-label="gitpulse - feel the heartbeat of any git repo">
+  <style>
+    .bg{fill:#0d1117}
+    .grid{stroke:#161b22;stroke-width:1}
+    .ecg{fill:none;stroke:#39d353;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:900;stroke-dashoffset:900;animation:draw 3.2s linear infinite;filter:drop-shadow(0 0 4px #39d353)}
+    .heart{fill:#39d353;transform-origin:668px 62px;animation:beat 1.6s ease-in-out infinite}
+    .title{font:700 54px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#e6edf3}
+    .accent{fill:#39d353}
+    .sub{font:400 18px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e;opacity:0;animation:fade 1.2s .6s forwards}
+    .cursor{fill:#39d353;animation:blink 1s steps(1) infinite}
+    @keyframes draw{0%{stroke-dashoffset:900}70%,100%{stroke-dashoffset:0}}
+    @keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.25)}30%{transform:scale(1)}45%{transform:scale(1.15)}}
+    @keyframes fade{to{opacity:1}}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <rect class="bg" width="800" height="200" rx="16"/>
+  <g class="grid">
+    <path d="M0 50H800M0 100H800M0 150H800"/>
+    <path d="M100 0V200M200 0V200M300 0V200M400 0V200M500 0V200M600 0V200M700 0V200"/>
+  </g>
+  <path class="ecg" d="M30 150H150L170 150L190 110L212 178L236 70L262 150H400L420 150L440 120L458 164L478 96L498 150H640L660 150L676 128L690 160L704 150H770"/>
+  <text class="title" x="40" y="72">git<tspan class="accent">pulse</tspan></text>
+  <rect class="cursor" x="308" y="34" width="6" height="44"/>
+  <text class="sub" x="42" y="104">feel the heartbeat of any git repo</text>
+  <path class="heart" d="M668 76 C 640 56, 650 38, 668 50 C 686 38, 696 56, 668 76 Z"/>
+</svg>
