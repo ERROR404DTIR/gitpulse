@@ -1,5 +1,7 @@
 <div align="center">
 
+<p align="center"><img src="assets/readme-banner.svg" alt="Animated GitPulse activity banner" width="100%"></p>
+
 <img src="assets/banner.svg" alt="gitpulse banner" width="800">
 
 **Feel the heartbeat of any git repository. One Python file. Zero installs.**
@@ -15,12 +17,12 @@
 
 ## What you get
 
-- 🟩 **Contribution heatmap** right in your terminal (adapts to your window width)
-- 🔥 **Streaks**: current and longest, plus active days
-- 📅 **Busiest weekdays** and a ⏰ **24-hour activity sparkline**
-- 👥 **Top authors** with commits and lines added/removed
-- 🌶️ **Hot files**: the files that change the most (usually where the bugs live)
-- 🌐 **Self-contained HTML report** with `--html report.html` (no server, no CDN)
+-  **Contribution heatmap** right in your terminal (adapts to your window width)
+-  **Streaks**: current and longest, plus active days
+-  **Busiest weekdays** and a  **24-hour activity sparkline**
+-  **Top authors** with commits and lines added/removed
+- ️ **Hot files**: the files that change the most (usually where the bugs live)
+-  **Self-contained HTML report** with `--html report.html` (no server, no CDN)
 
 ## Quick start
 
@@ -48,10 +50,10 @@ python gitpulse.py --no-color              # plain output (pipes, CI logs)
 ## Sample output
 
 ```text
-  ♥ gitpulse · demo
+   gitpulse · demo
   260 commits · 3 authors · 2025-12-16 → 2026-11-12
   +880 / -0 lines · 177 active days
-  🔥 current streak 4d · longest streak 8d
+   current streak 4d · longest streak 8d
 
   Weekdays
   Mon ██████████████████         31
